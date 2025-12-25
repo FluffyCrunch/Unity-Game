@@ -15,7 +15,7 @@ D:/Game devs/CypherPong3D
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51720
+64502
 Successfully changed project path to: D:/Game devs/CypherPong3D
 D:/Game devs/CypherPong3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Game devs/CypherPong3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32432] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2949333092 [EditorId] 2949333092 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-P8KI6ULB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11660] Host "[IP] 192.168.29.196 [Port] 0 [Flags] 2 [Guid] 539552816 [EditorId] 539552816 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-P8KI6ULB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [32432] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2949333092 [EditorId] 2949333092 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-P8KI6ULB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11660] Host "[IP] 192.168.29.196 [Port] 0 [Flags] 2 [Guid] 539552816 [EditorId] 539552816 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-P8KI6ULB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 66.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 67.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,87 +67,87 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007595 seconds.
+Registered in 0.005848 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.626 seconds
+- Completed reload, in  0.547 seconds
 Domain Reload Profiling:
-	ReloadAssembly (626ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (547ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (430ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (368ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (246ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (205ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
+				RefreshPlugins (55ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (124ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010532 seconds.
+Registered in 0.008566 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
+- Completed reload, in  0.999 seconds
 Domain Reload Profiling:
-	ReloadAssembly (907ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (1000ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (689ms)
-			LoadAssemblies (109ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (777ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
+			SetupTypeCache (237ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (310ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (56.1 KB). Loaded Objects now: 3561.
-Memory consumption went from 109.3 MB to 109.2 MB.
-Total: 4.243700 ms (FindLiveObjects: 0.381600 ms CreateObjectMapping: 0.117300 ms MarkObjects: 3.595900 ms  DeleteObjects: 0.146700 ms)
+Unloading 23 unused Assets / (56.1 KB). Loaded Objects now: 3564.
+Memory consumption went from 110.0 MB to 109.9 MB.
+Total: 3.799600 ms (FindLiveObjects: 0.533100 ms CreateObjectMapping: 0.354100 ms MarkObjects: 2.792500 ms  DeleteObjects: 0.117600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,36 +162,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 418421.143895 seconds.
-  path: Assets/Art/Models/CyberRacket.fbx
-  artifactKey: Guid(dccba926f2de046ffbb1701a88668d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/CyberRacket.fbx using Guid(dccba926f2de046ffbb1701a88668d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb9a25011c8bd2b97aa0855047e7f45') in 0.387429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.919386 seconds.
-  path: Assets/CyberPong3D_Starter/Ball.fbx
-  artifactKey: Guid(1a5979baa172d401690c1974d541f81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberPong3D_Starter/Ball.fbx using Guid(1a5979baa172d401690c1974d541f81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61aefa39f904c4ec564a7acdda406173') in 0.013204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008904 seconds.
-  path: Assets/CyberPong3D_Starter/Ball.mat
-  artifactKey: Guid(36f2df3d259a04fd6af819fe764a9aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberPong3D_Starter/Ball.mat using Guid(36f2df3d259a04fd6af819fe764a9aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c8c8944c2c6ca23b58063e0904cebd') in 0.039424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CyberPong3D_Starter/Spark.prefab
-  artifactKey: Guid(e744f1a86815a4b929d4356976c9d433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberPong3D_Starter/Spark.prefab using Guid(e744f1a86815a4b929d4356976c9d433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3134edd02c7354cc208731f41a7213d') in 0.018044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CyberPong3D_Starter/SmokeVFX.prefab
-  artifactKey: Guid(dc5e8527d0be34c9498fb6399d91fe5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberPong3D_Starter/SmokeVFX.prefab using Guid(dc5e8527d0be34c9498fb6399d91fe5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d32d8e80c53fc6e7b77a07d00b23a4') in 0.010698 seconds 
+  Time since last request: 502062.475376 seconds.
+  path: Assets/Art/Materials/Racket_2.mat
+  artifactKey: Guid(fcf471bdd72d74c51a79652e1ffd00f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Racket_2.mat using Guid(fcf471bdd72d74c51a79652e1ffd00f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e6805c1534a79f7140d6016b7f560e') in 0.179264 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
